@@ -19,6 +19,6 @@ steps:
     resourceGroupName: 'testwindows'
     location: 'West Europe'
     templateLocation: 'Linked artifact'
-    csmFile: '$(Build.SourcesDirectory)/quickstarts/microsoft.compute/vm-simple-windows//arzuredeploy.json'
-    csmParametersFile: '$(Build.SourcesDirectory)/quickstarts/microsoft.compute/vm-simple-windows/azuredeploy.parameters'
+    csmFile: '$(Build.SourcesDirectory)/arzuredeploy.json'
+    csmParametersFile: '$(Build.SourcesDirectory)/azuredeploy.parameters'
     deploymentMode: 'Incremental'
