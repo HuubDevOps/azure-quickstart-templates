@@ -20,5 +20,5 @@ steps:
     location: 'West Europe'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.SourcesDirectory)/arzuredeploy.json'
-    csmParametersFile: '$(Build.SourcesDirectory)/azuredeploy.parameters'
+    csmParametersFile: '$(Build.SourcesDirectory)/azuredeploy.parameters.json'
     deploymentMode: 'Incremental'
